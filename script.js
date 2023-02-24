@@ -34,7 +34,7 @@ function cellClicked(cell) {
   const cellIndex = cell.getAttribute("cellIndex");
 
   upadteCell(cell, cellIndex);
-  checkWhoWin();
+  
 }
 
 function upadteCell(cell, cellIndex) {
@@ -44,6 +44,7 @@ function upadteCell(cell, cellIndex) {
   }
   cell.innerHTML = currentPlayer;
   options[cellIndex] = currentPlayer;
+  checkWhoWin();
 }
 
 function changePlayer() {
