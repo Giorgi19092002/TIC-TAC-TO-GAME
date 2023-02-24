@@ -1,0 +1,54 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: solid 2px;
+    line-height: 75px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#cellsContainer{
+    width: 225px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    position: relative;
+    top: 150px;
+    color: white;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+}
+
+.ii{
+    color: white;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px #fff;
+    position: relative;
+    bottom: 10px;
+}
+
+.ss{
+    color: white;
+    font-size: 55px;
+    margin-left: 30px;
+}
+
+.ori{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 17px;
+    position: relative;
+    left: 650px;
+    top: 300px;
+    cursor: pointer;
+}
